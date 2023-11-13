@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\BusinessObject.csproj": {
+    "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -70,20 +70,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -93,17 +79,17 @@
         }
       }
     },
-    "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,8 +103,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\BusinessObject.csproj"
+              "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
