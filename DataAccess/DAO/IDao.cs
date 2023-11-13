@@ -1,4 +1,4 @@
-﻿namespace DataAccess;
+﻿namespace DataAccess.DAO;
 
 using BusinessObject.Models;
 
