@@ -33,7 +33,7 @@
 
         public async Task getData()
         {
-            var accId = Int32.Parse(this.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value);
+            var accId = int.Parse(this.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value);
             this.AccountApiUrl = "https://localhost:5000/api/Account/getAccountDTO/" + accId;
             var response = await this.client.GetAsync(this.AccountApiUrl);
             var data     = await response.Content.ReadAsStringAsync();
@@ -132,10 +132,6 @@
                 this.HttpContext.Session.SetString("cart", JsonSerializer.Serialize(list));
                 return this.Redirect("/Cart/Index");
             }    
-
-
         }
-
-
     }
 }
