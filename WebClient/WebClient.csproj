@@ -41,4 +41,8 @@
     <_ContentIncludedByDefault Remove="Pages\Admin\Product\Index.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Pages\Product\Detail.cshtml.cs" />
+  </ItemGroup>
+
 </Project>
