@@ -1,7 +1,7 @@
-﻿namespace DataAccess.Repository;
+﻿namespace DataAccess.Repository.Base;
 
 using BusinessObject.Models;
-using DataAccess.DAO;
+using DataAccess.DAO.Base;
 
 public class Repository<TModel, TDao> : IRepository<TModel> where TModel : class, IModel where TDao : IDao<TModel>
 {

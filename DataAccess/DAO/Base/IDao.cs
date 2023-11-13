@@ -1,4 +1,4 @@
-﻿namespace DataAccess.DAO;
+﻿namespace DataAccess.DAO.Base;
 
 using BusinessObject.Models;
 
@@ -10,4 +10,5 @@ public interface IDao<T> where T : class, IModel
     static abstract void Add(T t);
     static abstract void Update(T t);
     static abstract void Delete(object[]? objects);
+    static abstract void Delete(T t);
 }

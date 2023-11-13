@@ -1,4 +1,4 @@
-﻿namespace DataAccess.DAO;
+﻿namespace DataAccess.DAO.Base;
 
 using BusinessObject.Models;
 
@@ -9,7 +9,7 @@ public abstract class Dao<T> : IDao<T> where T : class, IModel
         try
         {
             using var context = new Prn231DBContext();
-            var list = context.Set<T>().ToList();
+            var       list    = context.Set<T>().ToList();
             return list.FirstOrDefault(x => x.PrimaryKey != null && x.PrimaryKey.SequenceEqual(objects));
         }
         catch (Exception e)
@@ -18,7 +18,7 @@ public abstract class Dao<T> : IDao<T> where T : class, IModel
             return null;
         }
     }
-    public static T       Get(T t)                  { throw new NotImplementedException(); }
+    public static T Get(T t) => Get(t.PrimaryKey);
     public static List<T> GetAll()
     {
         try
@@ -65,7 +65,7 @@ public abstract class Dao<T> : IDao<T> where T : class, IModel
         try
         {
             using var context = new Prn231DBContext();
-            var t = Get(objects);
+            var       t       = Get(objects);
             context.Set<T>().Remove(t);
             context.SaveChanges();
         }
@@ -75,4 +75,5 @@ public abstract class Dao<T> : IDao<T> where T : class, IModel
             throw;
         }
     }
+    public static void Delete(T t) => Delete(t.PrimaryKey);
 }

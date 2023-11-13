@@ -1,4 +1,4 @@
-﻿namespace DataAccess.Repository;
+﻿namespace DataAccess.Repository.Base;
 
 using BusinessObject.Models;
 
