@@ -17,7 +17,7 @@ namespace BusinessObject.Models
         public short?    ReorderLevel    { get; set; }
         public bool      Discontinued    { get; set; }
         public DateTime? DeletedAt       { get; set; }
-
+        
         public virtual Category?                Category     { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
 

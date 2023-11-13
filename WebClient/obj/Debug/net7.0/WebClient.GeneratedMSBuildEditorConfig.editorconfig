@@ -9,49 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebClient
 build_property.RootNamespace = WebClient
-build_property.ProjectDir = C:\Users\DELL\RiderProjects\FinalProject_PRN231\WebClient\
+build_property.ProjectDir = C:\Users\PC\RiderProjects\FinalProject_PRN231_FA23\WebClient\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\DELL\RiderProjects\FinalProject_PRN231\WebClient
+build_property.MSBuildProjectDirectory = C:\Users\PC\RiderProjects\FinalProject_PRN231_FA23\WebClient
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/DELL/RiderProjects/FinalProject_PRN231/WebClient/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/PC/RiderProjects/FinalProject_PRN231_FA23/WebClient/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/RiderProjects/FinalProject_PRN231/WebClient/Pages/Error.cshtml]
+[C:/Users/PC/RiderProjects/FinalProject_PRN231_FA23/WebClient/Pages/Admin/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/RiderProjects/FinalProject_PRN231_FA23/WebClient/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/RiderProjects/FinalProject_PRN231/WebClient/Pages/Index.cshtml]
+[C:/Users/PC/RiderProjects/FinalProject_PRN231_FA23/WebClient/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/RiderProjects/FinalProject_PRN231/WebClient/Pages/Order/Index.cshtml]
+[C:/Users/PC/RiderProjects/FinalProject_PRN231_FA23/WebClient/Pages/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/RiderProjects/FinalProject_PRN231/WebClient/Pages/Privacy.cshtml]
+[C:/Users/PC/RiderProjects/FinalProject_PRN231_FA23/WebClient/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/RiderProjects/FinalProject_PRN231/WebClient/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/PC/RiderProjects/FinalProject_PRN231_FA23/WebClient/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/RiderProjects/FinalProject_PRN231/WebClient/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/PC/RiderProjects/FinalProject_PRN231_FA23/WebClient/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/RiderProjects/FinalProject_PRN231/WebClient/Pages/_ViewImports.cshtml]
+[C:/Users/PC/RiderProjects/FinalProject_PRN231_FA23/WebClient/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/RiderProjects/FinalProject_PRN231/WebClient/Pages/_ViewStart.cshtml]
+[C:/Users/PC/RiderProjects/FinalProject_PRN231_FA23/WebClient/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/RiderProjects/FinalProject_PRN231/WebClient/Pages/Shared/_Layout.cshtml]
+[C:/Users/PC/RiderProjects/FinalProject_PRN231_FA23/WebClient/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fxb6eae6jp

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\BusinessObject.csproj": {
+    "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\obj\\",
+        "projectPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,17 +79,17 @@
         }
       }
     },
-    "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,8 +103,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\BusinessObject.csproj"
+              "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -144,17 +144,17 @@
         }
       }
     },
-    "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\WebApi\\obj\\",
+        "projectPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,11 +168,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\BusinessObject\\BusinessObject.csproj"
+              "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\BusinessObject\\BusinessObject.csproj"
               },
-              "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\DELL\\RiderProjects\\FinalProject_PRN231\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\PC\\RiderProjects\\FinalProject_PRN231_FA23\\DataAccess\\DataAccess.csproj"
               }
             }
           }

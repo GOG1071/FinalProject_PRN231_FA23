@@ -25,4 +25,20 @@
     <ProjectReference Include="..\WebApi\WebApi.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Account\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Account\Forgot.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Account\Login.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Account\Profile.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Account\SignUp.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Admin\Customer\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Admin\Dashboard\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Admin\Employee\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Admin\Order\Detail.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Admin\Order\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Admin\Product\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Admin\Product\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Admin\Product\Index.cshtml" />
+  </ItemGroup>
+
 </Project>
