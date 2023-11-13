@@ -15,6 +15,8 @@ public abstract class BaseController<TModel,TRepo> : ControllerBase, IBaseContro
     {
         return this.repo.GetAll();
     }
+    
+    [HttpPost]
     public virtual ActionResult<TModel> Add(TModel t)
     {
         var model = this.repo.Get(t.PrimaryKey);
@@ -22,6 +24,8 @@ public abstract class BaseController<TModel,TRepo> : ControllerBase, IBaseContro
         this.repo.Add(t);
         return this.NoContent();
     }
+    
+    [HttpPut]
     public virtual ActionResult<TModel> Update(TModel t)
     {
         var model = this.repo.Get(t.PrimaryKey);
