@@ -66,3 +66,4 @@ C:\Users\DELL\RiderProjects\FinalProject_PRN231\WebApi\obj\Debug\net7.0\refint\W
 C:\Users\DELL\RiderProjects\FinalProject_PRN231\WebApi\obj\Debug\net7.0\WebApi.pdb
 C:\Users\DELL\RiderProjects\FinalProject_PRN231\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
 C:\Users\DELL\RiderProjects\FinalProject_PRN231\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\Users\DELL\RiderProjects\FinalProject_PRN231\WebApi\bin\Debug\net7.0\AutoMapper.dll

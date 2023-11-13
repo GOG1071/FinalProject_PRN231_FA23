@@ -1,6 +1,7 @@
 ﻿namespace WebApi.Controllers;
 
 using BusinessObject.Models;
+using DataAccess.DTO;
 using DataAccess.Repository;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Controllers.Base;
@@ -26,5 +27,12 @@ public class AccountController : BaseController<Account,AccountRepo>
         if (model == null) { return NotFound(); }
         this.repo.Delete(model.PrimaryKey);
         return NoContent();
+    }
+
+    [HttpGet]
+    [Route("/getAccountDTO/{id:int}")]
+    public ActionResult<AccountDTO> GetAccountDTO(int id)
+    {
+        return this.repo.GetAccountDTO(id);
     }
 }
