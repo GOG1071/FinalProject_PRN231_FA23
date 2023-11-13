@@ -4,6 +4,8 @@ using BusinessObject.Models;
 using DataAccess.Repository.Base;
 using Microsoft.AspNetCore.Mvc;
 
+[ApiController]
+[Route("api/[controller]/[action]")]
 public abstract class BaseController<TModel,TRepo> : ControllerBase, IBaseController<TModel> where TModel : class, IModel where TRepo : IRepository<TModel> 
 {
     protected TRepo repo;
@@ -27,6 +29,7 @@ public abstract class BaseController<TModel,TRepo> : ControllerBase, IBaseContro
         this.repo.Update(t);
         return this.NoContent();
     }
+    [NonAction]
     public virtual ActionResult<TModel> DeleteAbstract(object[]? objects)
     {
         var model = this.repo.Get(objects);
@@ -34,6 +37,7 @@ public abstract class BaseController<TModel,TRepo> : ControllerBase, IBaseContro
         this.repo.Delete(objects);
         return this.NoContent();
     }
+    [NonAction]
     public virtual ActionResult<TModel> GetAbstract(object[]? objects)
     {
         var model = this.repo.Get(objects);
