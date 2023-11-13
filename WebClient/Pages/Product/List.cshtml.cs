@@ -24,14 +24,14 @@
 
         public int Id { get; set; }
 
-        public List<String> PagesLink { get; set; } = new List<string>();
+        public List<String> PagesLink { get; set; } = new();
 
         public ListModel()
         {
             this.client = new HttpClient();
         }
 
-        public async Task<IActionResult> OnGet(int? id)
+        public async Task<IActionResult> OnGet(int? categoryId)
         {
             var check = this.HttpContext.User.FindFirst(ClaimTypes.Role);
 
@@ -40,7 +40,7 @@
                 return this.NotFound();
             }
 
-            this.CategoryApiUrl = "https://localhost:5000/api/Category";
+            this.CategoryApiUrl = "https://localhost:5000/api/Category/GetAll";
             var responseCategory = await this.client.GetAsync(this.CategoryApiUrl);
             var dataCat          = await responseCategory.Content.ReadAsStringAsync();
             var options = new JsonSerializerOptions
@@ -49,12 +49,15 @@
             };
             this.Categories = JsonSerializer.Deserialize<List<Category>>(dataCat, options).ToList();
 
-            this.Id = (int)id;
+            this.Id = (int)categoryId;
 
-            this.ProductApiUrl = "https://localhost:5000/api/Product/getNumberOfProductsByCategory/" + id;
+            this.ProductApiUrl = "https://localhost:5000/api/Product/GetAll";
             var responseNewProducts = await this.client.GetAsync(this.ProductApiUrl);
             var dataNewProducts     = await responseNewProducts.Content.ReadAsStringAsync();
-            var size                = JsonSerializer.Deserialize<int>(dataNewProducts, options);
+            var products                = JsonSerializer.Deserialize<List<Product>>(dataNewProducts, options);
+
+            var list =products.Where(p => p.CategoryId == categoryId && p.DeletedAt == null);
+            var size = list.Count();
 
             var total = this.CalcPagesCount(size);
 
@@ -63,20 +66,15 @@
                 return this.NotFound();
             }
 
-            String orderUrl = "";
+            string orderUrl = "";
 
             if (this.Order != "None")
             {
                 orderUrl = "order=" + this.Order;
             }
 
-            PageLink page = new PageLink(this.perPage);
-            this.PagesLink = page.getLink(this.Page, size, "/Product/List/" + id + "?" + orderUrl + "&");
-
-            this.ProductApiUrl = "https://localhost:5000/api/Product/" + id;
-            var response = await this.client.GetAsync(this.ProductApiUrl);
-            var data     = await response.Content.ReadAsStringAsync();
-            var list     = JsonSerializer.Deserialize<List<Product>>(data, options);
+            var page = new PageLink(this.perPage);
+            this.PagesLink = page.getLink(this.Page, size, "/Product/List/" + categoryId + "?" + orderUrl + "&");
 
             switch (this.Order)
             {

@@ -31,14 +31,20 @@
             {
                 return this.NotFound();
             }
-            this.ProductApiUrl = "https://localhost:5000/api/Product/getActiveProductById/" + id;
+            this.ProductApiUrl = "https://localhost:5000/api/Product/GetAll/";
             var response = await this.client.GetAsync(this.ProductApiUrl);
             var data     = await response.Content.ReadAsStringAsync();
             var options = new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true
             };
-            this.Product =  JsonSerializer.Deserialize<Product>(data, options);
+            var productList = JsonSerializer.Deserialize<List<Product>>(data, options);
+            if (productList == null)
+            {
+                return this.NotFound();
+            }
+            
+            this.Product = productList.FirstOrDefault(p => p.ProductId == id && p.DeletedAt == null);
 
             if (this.Product == null)
             {
@@ -61,14 +67,20 @@
                 return this.NotFound();
             }
 
-            this.ProductApiUrl = "https://localhost:5000/api/Product/getActiveProductById/" + id;
+            this.ProductApiUrl = "https://localhost:5000/api/Product/GetAll/";
             var response = await this.client.GetAsync(this.ProductApiUrl);
             var data     = await response.Content.ReadAsStringAsync();
             var options = new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true
             };
-            this.Product = JsonSerializer.Deserialize<Product>(data, options);
+            var productList                       = JsonSerializer.Deserialize<List<Product>>(data, options);
+            if (productList == null)
+            {
+                return this.NotFound();
+            }
+            
+            this.Product = productList.FirstOrDefault(p => p.ProductId == id && p.DeletedAt == null);
 
             if (this.Product == null)
             {
